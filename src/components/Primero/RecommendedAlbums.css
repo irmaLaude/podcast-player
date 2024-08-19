@@ -1,0 +1,21 @@
+/* Sección de Álbumes Recomendados */
+.albums-recommended {
+    margin: 20px 0;
+  }
+  
+  .albums-recommended h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .album-card {
+    min-width: 200px;
+    margin-right: 10px;
+    background-color: #eaeaea;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }

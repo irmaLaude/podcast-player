@@ -1,0 +1,34 @@
+/* Barra de Reproducción */
+.playback-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #222;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .playback-bar button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .progress-bar {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .progress {
+    width: 50%;
+    background-color: #444;
+    height: 4px;
+    border-radius: 2px;
+  }

@@ -1,4 +1,4 @@
-#root {
+/*#root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,81 @@
 
 .read-the-docs {
   color: #888;
+}*/
+/* App.css */
+
+.music-app {
+  font-family: Arial, sans-serif;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.user-profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #555;
+}
+
+.listen-again {
+  margin: 20px 0;
+}
+
+.listen-again h2 {
+  margin-bottom: 10px;
+}
+
+.song-list {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.song-card {
+  width: 150px;
+  margin-right: 10px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.playback-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.progress-bar {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.progress {
+  width: 50%;
+  background-color: #444;
+  height: 4px;
+}
+

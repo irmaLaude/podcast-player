@@ -1,0 +1,31 @@
+/* Sección de 'Listen Again' */
+.listen-again {
+    margin: 20px 0;
+  }
+  
+  .listen-again h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .song-list {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .song-list::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+  
+  .song-card {
+    min-width: 150px;
+    margin-right: 10px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
