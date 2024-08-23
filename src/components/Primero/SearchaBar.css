@@ -1,0 +1,22 @@
+.search-bar {
+    flex: 1;
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3c3c3c;
+    color: white;
+    font-size: 14px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .search-bar::placeholder {
+    color: #aaa;
+  }
+  
+  .search-bar:focus {
+    background-color: #2c2c2c;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    outline: none;
+  }
+  

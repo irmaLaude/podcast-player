@@ -1,4 +1,4 @@
-{
+/*{
   "files": [],
   "references": [
     {
@@ -8,4 +8,23 @@
       "path": "./tsconfig.node.json"
     }
   ]
+}*/
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@utils/*": ["utils/*"]
+    }
+  },
+  "include": ["src/**/*"]
 }
+
